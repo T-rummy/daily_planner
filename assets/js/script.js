@@ -26,7 +26,7 @@ userTask.addEventListener("dblclick", function(event){
     localStorageObject.name = elementInfo.value;;
     localStorageObject.id = taskCounter
     tasks.push(localStorageObject);
-    console.log(elementInfo);
+    console.log(localStorageObject);
     
     
 
@@ -89,44 +89,6 @@ for (var i = 0; i < 9; i++){
 
 }
 
-   
 
-  
-
-
-// var setInput = function(){
-// var elementValue = elementInfo.value;
-
-// }
-
-// buttonEl.addEventListener("click", setInput )
-
-
-// $(".saveBtn").on("click", function(){
-
-    
-//     var userTask = $(".present").val();
-
-//     localStorage.setItem("userTasks", JSON.stringify(userTask));
-    
-    
-   
-
-//     console.log(userTask);
-
-//    window.location.reload();
-
-//    getTextInput();
-    
-   
-// });
-
- //var getTextInput = function(){
-//     $(".present").text(JSON.parse(localStorage.getItem("userTasks")));
-// }
-
-// saveBtnEl.addEventListener("click", function(){
-
-// });
 
 createElements();
